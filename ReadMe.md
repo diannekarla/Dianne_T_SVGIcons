@@ -1,13 +1,6 @@
-# Project Name
+SVG Icon Set
 
-TODO: Write a project description
-
-## Installation
-
-TODO: Describe the installation process
-
-
-TODO: Write usage instructions
+TODO: This will display SVG artwork and Javascript events.
 
 ## Contributing
 
@@ -20,9 +13,11 @@ TODO: Write usage instructions
 
 ## Credits
 
-TODO: Write credits
-// give accreditation to any resources / authors whose work you’re using
+* Prof Trev
+* Provided link as reference:
+- https://iconstore.co/
+- https://iconmonstr.com/idea
 
 ## License
-
-MIT
+MMED-1055 Multimedia Authoring 2
+© 2021 Dianne Karla Trabuco

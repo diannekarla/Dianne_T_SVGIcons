@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "brand-font";
+    src: url("../assets/PlaylistScript.otf");
+}
+
+/* ========== Homepage ========== */
 
 body.homepage {
     background-image: url("../images/music-background.png");
@@ -5,25 +11,24 @@ body.homepage {
 }
 
 body {
-    font-family: avenir, sans-serif;
+    font-family: "Open sans", sans-serif;
 }
 
-.hidden {
-  display: none;
+/* ========== End Homepage ========== */
+
+/* ========== General ========== */
+
+p {
+  text-align: center;
+  font-style: italic;
+  font-size: .80em;
+  margin: 1.2em;
 }
 
-.main-heading {
- color: #B6244F;
- font-size: 3.5em;
- text-align: center;
-}
-
-.grid, .grid > *{
-    display: grid;
-}
-
-.grid-column-3 {
-    grid-template-columns: 1fr repeat(1, minmax(auto, 33%)) 1fr;
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 img {
@@ -34,28 +39,49 @@ img {
   margin: auto;
 }
 
-/* .musicNote, .song {
-  width: 300px;
-  height: 100px;
+.hidden {
+  display: none;
 }
 
-.drum, .keyboardPiano, .mic, .music {
-  width: 300px;
-  height: 100px;
+/* ========== End General ========== */
+
+
+/* ========== Grid Items ========== */
+
+.grid, .grid > *{
+    display: grid;
 }
 
-.trombone, .vinyl {
-  width: 300px;
-  height: 100px;
-
+.grid-column-3 {
+    grid-template-columns: 1fr repeat(1, minmax(auto, 33%)) 1fr;
 }
 
-.stereoSpeaker {
-  width: 300px;
-  height: 100px;
+/* ========== End Grid Items ========== */
+
+
+/* ========== Sections ========== */
+
+.main-heading {
+ color: #957DAD;
+ font-size: 3.5em;
+ text-align: center;
+ font-family: "brand-font";
+ letter-spacing: .10em;
+ font-size: 4em;
+ filter: drop-shadow(0px 2px 1px #FFDFD3);
 }
 
-.trebleClef {
-  width: 300px;
-  height: 130px;
-} */
+.icon-label {
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  color: gray;
+  filter: drop-shadow(0px 2px 1px #FFDFD3);
+  margin-bottom: .5em;
+}
+
+.icon-label:hover {
+    filter: drop-shadow(0px 2px 1px #D291BC);
+}
+
+/* ========== End Sections ========== */
