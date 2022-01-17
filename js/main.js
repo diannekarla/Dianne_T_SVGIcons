@@ -14,7 +14,7 @@ function logElement() {
 (() => {
  let keyboardPiano = document.querySelector(".keyboardPiano");
  function logElement() {
-   console.log('Piano')
+   console.log('Keyboard')
  }
    keyboardPiano.addEventListener("click", logElement);
 })();
@@ -30,7 +30,7 @@ function logElement() {
 (() => {
  let musicNote = document.querySelector(".musicNote");
  function logElement() {
-   console.log('Music note')
+   console.log('Triplet')
  }
    musicNote.addEventListener("click", logElement);
 })();
@@ -38,7 +38,7 @@ function logElement() {
 (() => {
  let music = document.querySelector(".music");
  function logElement() {
-   console.log('Music')
+   console.log('Double Note')
  }
    music.addEventListener("click", logElement);
 })();
@@ -46,7 +46,7 @@ function logElement() {
 (() => {
  let song = document.querySelector(".song");
  function logElement() {
-   console.log('Song')
+   console.log('Single Note')
  }
    song.addEventListener("click", logElement);
 })();
@@ -54,7 +54,7 @@ function logElement() {
 (() => {
  let stereoSpeaker = document.querySelector(".stereoSpeaker");
  function logElement() {
-   console.log('Stereo speaker')
+   console.log('Stereo Speaker')
  }
    stereoSpeaker.addEventListener("click", logElement);
 })();
@@ -62,7 +62,7 @@ function logElement() {
 (() => {
  let trebleClef = document.querySelector(".trebleClef");
  function logElement() {
-   console.log('Treble clef')
+   console.log('Treble Clef')
  }
    trebleClef.addEventListener("click", logElement);
 })();

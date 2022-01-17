@@ -1,4 +1,4 @@
-SVG Icon Set
+#SVG Icon Set
 
 TODO: This will display SVG artwork and Javascript events.
 
