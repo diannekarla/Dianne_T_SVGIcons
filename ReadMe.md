@@ -15,8 +15,8 @@ TODO: This will display SVG artwork and Javascript events.
 
 * Prof Trev
 * Provided link as reference:
-- https://iconstore.co/
-- https://iconmonstr.com/idea
+ - https://iconstore.co/
+ - https://iconmonstr.com/idea
 
 ## License
 MMED-1055 Multimedia Authoring 2
