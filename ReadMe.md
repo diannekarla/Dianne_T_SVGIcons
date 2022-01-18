@@ -1,4 +1,4 @@
-##VG Icon Set
+## SVG Icon Set
 
 TODO: This will display SVG artwork and Javascript events. Upon clicking the SVG icons, it should show in the console and count the clicks.
 
