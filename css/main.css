@@ -20,7 +20,7 @@ body {
 
 p {
   text-align: center;
-  font-style: italic;
+  font-style:normal;
   font-size: .80em;
   margin: 1.2em;
 }
@@ -73,7 +73,7 @@ img {
 
 .icon-label {
   text-align: center;
-  font-style: italic;
+  font-style: normal;
   font-size: 2em;
   color: gray;
   filter: drop-shadow(0px 2px 1px #FFDFD3);

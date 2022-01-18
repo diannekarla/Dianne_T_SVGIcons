@@ -20,4 +20,5 @@ TODO: This will display SVG artwork and Javascript events. Upon clicking the SVG
 
 ## License
 MMED-1055 Multimedia Authoring 2
-© 2021 Dianne Karla Trabuco
+© 2021
+Dianne Karla Trabuco
