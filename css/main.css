@@ -1,87 +1,98 @@
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
     font-family: "brand-font";
     src: url("../assets/PlaylistScript.otf");
 }
 
-/* ========== Homepage ========== */
+@font-face {
+    font-family: "light-font";
+    src: url("../assets/sofiapro-light.otf");
+}
+
+body {
+  font-size: 16px;
+}
 
 body.homepage {
     background-image: url("../images/music-background.png");
     background-size: cover;
 }
 
-body {
-    font-family: "Open sans", sans-serif;
-}
-
-/* ========== End Homepage ========== */
-
-/* ========== General ========== */
-
-p {
-  text-align: center;
-  font-style:normal;
-  font-size: .80em;
-  margin: 1.2em;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-img {
-  cursor: pointer;
-  width: 250px;
-  height: 250px;
-  padding: 5%;
-  margin: auto;
-}
-
 .hidden {
   display: none;
 }
 
-/* ========== End General ========== */
-
-
-/* ========== Grid Items ========== */
-
-.grid, .grid > *{
-    display: grid;
+p {
+  text-align: center;
+  /* font-style:normal; */
+  font-family: "light-font";
+  font-size: .20em;
+  margin: 1.2em;
+  color: #333333;
 }
-
-.grid-column-3 {
-    grid-template-columns: 1fr repeat(1, minmax(auto, 33%)) 1fr;
-}
-
-/* ========== End Grid Items ========== */
-
-
-/* ========== Sections ========== */
 
 .main-heading {
  color: #957DAD;
- font-size: 3.5em;
+ font-size: 1.5em;
  text-align: center;
  font-family: "brand-font";
  letter-spacing: .10em;
- font-size: 4em;
  filter: drop-shadow(0px 2px 1px #FFDFD3);
 }
 
-.icon-label {
+#svg-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.container {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.container img {
+  height: 50px !important;
+  width: 50px !important;
+  margin: 0 auto;
   text-align: center;
-  font-style: normal;
-  font-size: 2em;
+  display: flex;
+}
+
+h4.icon-label {
+  margin-top: .2em;
+  text-align: center;
+  font-family: "light-font";
+  font-size: .8em;
   color: gray;
   filter: drop-shadow(0px 2px 1px #FFDFD3);
-  margin-bottom: .5em;
 }
 
 .icon-label:hover {
     filter: drop-shadow(0px 2px 1px #D291BC);
 }
 
-/* ========== End Sections ========== */
+
+
+
+
+/* #trebleClef {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+#trombone {
+  height: 50px !important;
+  width: 50px !important;
+} */
+
+/* interactive SVG rules here */
+
+}

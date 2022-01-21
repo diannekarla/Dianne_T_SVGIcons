@@ -1,93 +1,22 @@
 (() => {
   //make associations with elements in the HTML markup using CSS selectors
- let drum = document.querySelector(".drum");
+ let theHeading = document.querySelector(".main-heading"),
+    svgIcons = document.querySelectorAll(".icon");
+
+    // debugger; //breakpoint / pause point in the code
+
 //script your behaviour with function
 function logElement() {
-  console.log('Drum');
+  // the 'this' keyword refers to the thing that invokes the function
+  //sp the 'thing' that you click on, mouse over, interact with on the page
+  console.log('clicked on an element:', this.id);
 }
+
  //add event handling here (user "triggers")
  //assign the event you want to listen for, and the function should be run
- drum.addEventListener("click", logElement);
+ theHeading.addEventListener("click", logElement);
 
-})();
+// one to many relationship (selecting a group of elements)
+ svgIcons.forEach(icon => icon.addEventListener("click", logElement));
 
-(() => {
- let keyboardPiano = document.querySelector(".keyboardPiano");
- function logElement() {
-   console.log('Keyboard')
- }
-   keyboardPiano.addEventListener("click", logElement);
-})();
-
-(() => {
- let mic = document.querySelector(".mic");
- function logElement() {
-   console.log('Mic')
- }
-   mic.addEventListener("click", logElement);
-})();
-
-(() => {
- let musicNote = document.querySelector(".musicNote");
- function logElement() {
-   console.log('Triplet')
- }
-   musicNote.addEventListener("click", logElement);
-})();
-
-(() => {
- let music = document.querySelector(".music");
- function logElement() {
-   console.log('Double Note')
- }
-   music.addEventListener("click", logElement);
-})();
-
-(() => {
- let song = document.querySelector(".song");
- function logElement() {
-   console.log('Single Note')
- }
-   song.addEventListener("click", logElement);
-})();
-
-(() => {
- let stereoSpeaker = document.querySelector(".stereoSpeaker");
- function logElement() {
-   console.log('Stereo Speaker')
- }
-   stereoSpeaker.addEventListener("click", logElement);
-})();
-
-(() => {
- let trebleClef = document.querySelector(".trebleClef");
- function logElement() {
-   console.log('Treble Clef')
- }
-   trebleClef.addEventListener("click", logElement);
-})();
-
-
-(() => {
- let trombone = document.querySelector(".trombone");
- function logElement() {
-   console.log('Trombone')
- }
-   trombone.addEventListener("click", logElement);
-})();
-
-(() => {
- let vinyl = document.querySelector(".vinyl");
- function logElement() {
-   console.log('Vinyl')
- }
-   vinyl.addEventListener("click", logElement);
-})();
-
-(() => {
- let guitar = document.querySelector(".guitar");
- function logElement() {
-   console.log('Guitar')
- }
-   guitar.addEventListener("click", logElement);
 })();
