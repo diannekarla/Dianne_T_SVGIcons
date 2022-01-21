@@ -1,6 +1,6 @@
 ## SVG Icon Set
 
-TODO: This will display SVG artwork and Javascript events, and flexbox. Upon clicking the SVG icons, it should show in the console and count the clicks.
+TODO: This will display SVG artwork and Javascript events, and Flex Box. Upon clicking the SVG icons, it should show in the console and count the clicks.
 
 ## Contributing
 
